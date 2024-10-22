@@ -1,0 +1,21 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+model CallbackRequest {
+    id                 String   @id @default(uuid())
+    first_name         String
+    last_name          String
+    email_id           String
+    phone_number       String
+    message            String
+    country_of_residence String
+    office_location    String
+    created_at         DateTime @default(now())
+    updated_at         DateTime @updatedAt
+}
