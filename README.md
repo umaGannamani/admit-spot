@@ -14,5 +14,5 @@ AdmitSpot is a web application built with Next.js for managing admission process
 2. **Vercel App**
 
    ```bash
-   https://admit-spot.vercel.app/
+   https://admit-spot-five.vercel.app/
 
