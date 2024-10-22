@@ -220,4 +220,9 @@
   .virtual-office img {
     margin-bottom: 20px;
   }
+  .office {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
