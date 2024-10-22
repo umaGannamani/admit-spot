@@ -2,9 +2,6 @@
 
 /* Header Styles */
 .header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
   margin-top: 20px;
 }
