@@ -126,7 +126,11 @@
   border-radius: 8px;
   font-size: 16px;
 }
-
+.office {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .office-location {
   flex: 1;
   background: var(--color-secondary);
