@@ -230,6 +230,10 @@
   .office {
     display: flex;
     flex-direction: column;
+  }
+  .office-location {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 }
