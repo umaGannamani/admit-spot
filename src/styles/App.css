@@ -7,6 +7,9 @@
   justify-content: center;
 }
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   margin-top: 20px;
 }
@@ -218,7 +221,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .contact-methods,
   .virtual-office,
   .contact-section {
