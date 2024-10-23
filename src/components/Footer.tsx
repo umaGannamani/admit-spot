@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaWhatsapp, FaYoutubeSquare   } from "react-icons/fa";
+import { FaWhatsapp, FaYoutubeSquare } from "react-icons/fa";
 // import './Footer.css';
 
 const Footer: React.FC = () => {
