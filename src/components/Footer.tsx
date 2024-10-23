@@ -1,6 +1,4 @@
 import React from 'react';
-import tt from "@/public/images/tt.svg";
-import yt from "@/public/images/yt.svg";
 import { FaWhatsapp, FaYoutubeSquare } from "react-icons/fa";
 // import './Footer.css';
 
@@ -42,10 +40,9 @@ const Footer: React.FC = () => {
       <div className="footer-bottom">
         <p>Follow us on social media:</p>
         <div className="social-icons">
-          {/* Add social media icons here */}
+          {/* Adding social media icons here */}
           <FaWhatsapp />
           <FaYoutubeSquare  />
-          [tt, yt]
         </div>
       </div>
     </footer>
