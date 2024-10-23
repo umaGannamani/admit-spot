@@ -194,6 +194,7 @@
   display: flex;
   justify-content: center;
   gap: 15px;
+  background-color: #ffffff;
 }
 
 .footer p, .footer a {
