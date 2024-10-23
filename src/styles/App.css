@@ -134,7 +134,7 @@
 .office-locations {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   background: var(--color-secondary);
   padding: 20px;
   border-radius: 12px;
