@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaWhatsapp, FaYoutube  } from "react-icons/fa";
+import { FaWhatsapp, FaYoutubeSquare   } from "react-icons/fa";
 // import './Footer.css';
 
 const Footer: React.FC = () => {
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
         <div className="social-icons">
           {/* Add social media icons here */}
           <FaWhatsapp />
-          <FaYoutube />
+          <FaYoutubeSquare  />
         </div>
       </div>
     </footer>
